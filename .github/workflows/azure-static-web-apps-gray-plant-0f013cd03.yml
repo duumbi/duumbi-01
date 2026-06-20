@@ -27,7 +27,7 @@ jobs:
       sha_short: ${{ steps.commit.outputs.sha_short }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           submodules: true
 
