@@ -1,5 +1,5 @@
 terraform {
-  required_version = "1.9.8"
+  required_version = "1.17.0"
 
   cloud {
     hostname     = "app.terraform.io"
@@ -12,27 +12,27 @@ terraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "4.5.0"
+      version = "4.81.0"
     }
 
     port = {
       source  = "port-labs/port-labs"
-      version = "2.0.23"
+      version = "2.32.2"
     }
 
     doppler = {
       source  = "DopplerHQ/doppler"
-      version = "1.11.0"
+      version = "1.22.0"
     }
 
     betteruptime = {
       source  = "BetterStackHQ/better-uptime"
-      version = "0.11.11"
+      version = "0.22.4"
     }
 
     newrelic = {
       source  = "newrelic/newrelic"
-      version = "3.50.0"
+      version = "3.101.1"
     }
   }
 }
